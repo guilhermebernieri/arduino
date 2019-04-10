@@ -49,6 +49,7 @@ void loop(){
   } else { // Se não
     // Imprime o valor de temperatura no LCD
     // posiciona o cursor do LCD
+    lcd.clear();
     lcd.setCursor(0, 0); // (coluna 0, linha 0)
     lcd.print("Temperatura:"); // Imprime mensagem  
     lcd.setCursor(0, 1);
